@@ -1,0 +1,16 @@
+App\Entity\Simple:
+    simple{1..1000}:
+        id: <uuid()>
+        title: <name()>
+        content: <name()>
+App\Entity\User:
+    user{1..1000}:
+        id: <uuid()>
+        title: <name()>
+        content: <name()>
+App\Entity\Event:
+    event{1..1000}:
+        id: <uuid()>
+        title: <name()>
+        content: <name()>
+        author: '@user*'

@@ -1,0 +1,4 @@
+olla_api:
+    resource: .
+    type: olla_api
+    prefix: '/api'

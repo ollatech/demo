@@ -1,0 +1,9 @@
+46b5dc,172.18.0.1,GET,http://symfony.dev:8080/api/simples?page=3,1517563480,,201
+f8e381,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517564022,,201
+7e8b34,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517564046,,201
+e403e4,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517564048,,201
+0516fa,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517569843,,201
+f01a6a,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517569917,,201
+1304ec,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517569925,,201
+54282b,172.18.0.1,GET,http://symfony.dev:8080/api/events,1517569936,,201
+8f9e6e,172.18.0.1,GET,http://symfony.dev:8080/api/simples?page=3,1517569948,,201

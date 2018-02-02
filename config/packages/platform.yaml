@@ -1,0 +1,30 @@
+olla_platform:
+    title: Api Platform
+    version: 1.0.0
+    mapping:
+        resource: ['%kernel.project_dir%/src/Entity']
+        operation: ['%kernel.project_dir%/src/Operation']
+        admin: ['%kernel.project_dir%/src/Admin']
+        frontend: ['%kernel.project_dir%/src/Frontend']
+    provider:
+        database: 'orm'
+        guard: 'sentinel'
+        serializer: 'platform'
+        validator: 'platform'
+        gate: 'platform'
+        credential: 'fos_user'
+    presentation:
+        restapi: 
+            enabled: true
+        graphql: 
+            enabled: true
+        admin: 
+            enabled: true
+        frontend: 
+            enabled: true
+        swagger: 
+            enabled: true
+        graphiql: 
+            enabled: true
+    
+    
